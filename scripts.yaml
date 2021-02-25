@@ -1,0 +1,8 @@
+scripts:
+  start: 
+    cmd: index.ts
+    watch: true
+    unstable: true
+    allow:
+      net: true
+  test: deno test
